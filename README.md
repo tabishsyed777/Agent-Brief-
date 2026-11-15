@@ -20,7 +20,7 @@ The output directory must not already exist. It contains `brief.md` and `run.jso
 
 ```bash
 python -m pip install -e .
-python -m pytest
+python -m unittest discover -s tests -v
 ```
 
 ## Design
